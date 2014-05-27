@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SFViewController : UIViewController
-
+@interface SFViewController : UITableViewController
+<UITableViewDelegate,UITableViewDataSource>
+{
+    NSString* temp;
+}
+@property (nonatomic,retain) UITableView* table;
 @end

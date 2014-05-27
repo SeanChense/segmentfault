@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90AB865F9F0243289A732554 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79682756BDC74B9DAF8B5806 /* libPods.a */; };
+		C1EC96711934D03D00F793E4 /* SFDownloadHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EC96701934D03D00F793E4 /* SFDownloadHtml.m */; };
 		C1F3C3B819348D29002D0CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F3C3B719348D29002D0CA4 /* Foundation.framework */; };
 		C1F3C3BA19348D29002D0CA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F3C3B919348D29002D0CA4 /* CoreGraphics.framework */; };
 		C1F3C3BC19348D29002D0CA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F3C3BB19348D29002D0CA4 /* UIKit.framework */; };
@@ -21,6 +23,7 @@
 		C1F3C3D919348D29002D0CA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F3C3BB19348D29002D0CA4 /* UIKit.framework */; };
 		C1F3C3E119348D29002D0CA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1F3C3DF19348D29002D0CA4 /* InfoPlist.strings */; };
 		C1F3C3E319348D29002D0CA4 /* segmentfaultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F3C3E219348D29002D0CA4 /* segmentfaultTests.m */; };
+		C1F3C3EF193492C7002D0CA4 /* SFItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F3C3EE193492C7002D0CA4 /* SFItemTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79682756BDC74B9DAF8B5806 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97ADD0E3A5EB46B2943F63FB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C1EC966F1934D03D00F793E4 /* SFDownloadHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFDownloadHtml.h; sourceTree = "<group>"; };
+		C1EC96701934D03D00F793E4 /* SFDownloadHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFDownloadHtml.m; sourceTree = "<group>"; };
 		C1F3C3B419348D29002D0CA4 /* segmentfault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = segmentfault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F3C3B719348D29002D0CA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C1F3C3B919348D29002D0CA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,8 @@
 		C1F3C3DE19348D29002D0CA4 /* segmentfaultTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "segmentfaultTests-Info.plist"; sourceTree = "<group>"; };
 		C1F3C3E019348D29002D0CA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1F3C3E219348D29002D0CA4 /* segmentfaultTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = segmentfaultTests.m; sourceTree = "<group>"; };
+		C1F3C3ED193492C7002D0CA4 /* SFItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFItemTableViewCell.h; sourceTree = "<group>"; };
+		C1F3C3EE193492C7002D0CA4 /* SFItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFItemTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 				C1F3C3BA19348D29002D0CA4 /* CoreGraphics.framework in Frameworks */,
 				C1F3C3BC19348D29002D0CA4 /* UIKit.framework in Frameworks */,
 				C1F3C3B819348D29002D0CA4 /* Foundation.framework in Frameworks */,
+				90AB865F9F0243289A732554 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1EC966E1934D00300F793E4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C1EC966F1934D03D00F793E4 /* SFDownloadHtml.h */,
+				C1EC96701934D03D00F793E4 /* SFDownloadHtml.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		C1F3C3AB19348D28002D0CA4 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +105,7 @@
 				C1F3C3DC19348D29002D0CA4 /* segmentfaultTests */,
 				C1F3C3B619348D29002D0CA4 /* Frameworks */,
 				C1F3C3B519348D29002D0CA4 /* Products */,
+				97ADD0E3A5EB46B2943F63FB /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +125,7 @@
 				C1F3C3B919348D29002D0CA4 /* CoreGraphics.framework */,
 				C1F3C3BB19348D29002D0CA4 /* UIKit.framework */,
 				C1F3C3D619348D29002D0CA4 /* XCTest.framework */,
+				79682756BDC74B9DAF8B5806 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +133,11 @@
 		C1F3C3BD19348D29002D0CA4 /* segmentfault */ = {
 			isa = PBXGroup;
 			children = (
+				C1EC966E1934D00300F793E4 /* Utils */,
+				C1F3C3F0193493A6002D0CA4 /* ViewController */,
+				C1F3C3EC1934929C002D0CA4 /* view */,
 				C1F3C3C619348D29002D0CA4 /* SFAppDelegate.h */,
 				C1F3C3C719348D29002D0CA4 /* SFAppDelegate.m */,
-				C1F3C3C919348D29002D0CA4 /* Main.storyboard */,
-				C1F3C3CC19348D29002D0CA4 /* SFViewController.h */,
-				C1F3C3CD19348D29002D0CA4 /* SFViewController.m */,
 				C1F3C3CF19348D29002D0CA4 /* Images.xcassets */,
 				C1F3C3BE19348D29002D0CA4 /* Supporting Files */,
 			);
@@ -152,6 +173,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C1F3C3EC1934929C002D0CA4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C1F3C3C919348D29002D0CA4 /* Main.storyboard */,
+				C1F3C3ED193492C7002D0CA4 /* SFItemTableViewCell.h */,
+				C1F3C3EE193492C7002D0CA4 /* SFItemTableViewCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		C1F3C3F0193493A6002D0CA4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C1F3C3CC19348D29002D0CA4 /* SFViewController.h */,
+				C1F3C3CD19348D29002D0CA4 /* SFViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1F3C3E619348D29002D0CA4 /* Build configuration list for PBXNativeTarget "segmentfault" */;
 			buildPhases = (
+				6B2D7BE521EE449DAAF48127 /* Check Pods Manifest.lock */,
 				C1F3C3B019348D28002D0CA4 /* Sources */,
 				C1F3C3B119348D28002D0CA4 /* Frameworks */,
 				C1F3C3B219348D28002D0CA4 /* Resources */,
+				4ABB7B9ABF2541A7B91C1B7F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +287,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4ABB7B9ABF2541A7B91C1B7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2D7BE521EE449DAAF48127 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1F3C3B019348D28002D0CA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -253,6 +328,8 @@
 				C1F3C3C419348D29002D0CA4 /* main.m in Sources */,
 				C1F3C3CE19348D29002D0CA4 /* SFViewController.m in Sources */,
 				C1F3C3C819348D29002D0CA4 /* SFAppDelegate.m in Sources */,
+				C1EC96711934D03D00F793E4 /* SFDownloadHtml.m in Sources */,
+				C1F3C3EF193492C7002D0CA4 /* SFItemTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +451,7 @@
 		};
 		C1F3C3E719348D29002D0CA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97ADD0E3A5EB46B2943F63FB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +465,7 @@
 		};
 		C1F3C3E819348D29002D0CA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97ADD0E3A5EB46B2943F63FB /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +536,7 @@
 				C1F3C3E819348D29002D0CA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1F3C3E919348D29002D0CA4 /* Build configuration list for PBXNativeTarget "segmentfaultTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +545,7 @@
 				C1F3C3EB19348D29002D0CA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
